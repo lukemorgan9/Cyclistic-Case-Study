@@ -13,3 +13,5 @@ CREATE TABLE cyclistic_tripdata.combined_tripdata AS (
  SELECT * FROM `cyclistic-case-study-452522.2024_tripdata.10_tripdata` UNION ALL
  SELECT * FROM `cyclistic-case-study-452522.2024_tripdata.11_tripdata` UNION ALL
  SELECT * FROM `cyclistic-case-study-452522.2024_tripdata.12_tripdata` );
+
+-- There are 5860568 rows of data in the new table
