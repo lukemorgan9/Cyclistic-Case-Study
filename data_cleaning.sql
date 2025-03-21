@@ -47,4 +47,11 @@ NOTES: 0 rows removed.
 __________________________________________________________________________________________________
 -- #5 Creating new columns for day of week, month and ride length
 */
-
+SELECT *,
+FORMAT_DATE('%A', started_at) AS day_of_week,
+FORMAT_DATE('%B', started_at) AS month,
+TIMESTAMP_DIFF(ended_at, started_at, MINUTE) AS ride_length_minutes,
+FROM `cyclistic-case-study-452522.cyclistic_tripdata.combined_tripdata`
+/*
+__________________________________________________________________________________________________
+NOTES: 250,479 rows successfully removed. 5,610,089 rows of clean data remain.
