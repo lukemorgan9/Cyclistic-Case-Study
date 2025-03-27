@@ -45,8 +45,9 @@ WHERE start_lat IS NULL OR
 /*
 NOTES: 0 rows removed.
 __________________________________________________________________________________________________
--- #5 Creating new columns for day of week, month and ride length
+-- #5 Creating new table with columns for day of week, month and ride length
 */
+CREATE TABLE cyclistic_tripdata.date_formatted_tripdata AS
 SELECT *,
 FORMAT_DATE('%A', started_at) AS day_of_week,
 FORMAT_DATE('%B', started_at) AS month,
@@ -56,11 +57,11 @@ FROM `cyclistic-case-study-452522.cyclistic_tripdata.combined_tripdata`
 __________________________________________________________________________________________________
 -- #6 Changing null values in start and end station names to 'bike_lock'
 */
-UPDATE `cyclistic-case-study-452522.cyclistic_tripdata.combined_tripdata` 
+UPDATE `cyclistic-case-study-452522.cyclistic_tripdata.date_formatted_tripdata` 
 SET start_station_name = 'bike_lock'
 WHERE start_station_name IS NULL
 
-UPDATE `cyclistic-case-study-452522.cyclistic_tripdata.combined_tripdata` 
+UPDATE `cyclistic-case-study-452522.cyclistic_tripdata.date_formatted_tripdata` 
 SET end_station_name = 'bike_lock'
 WHERE end_station_name IS NULL
 /*
