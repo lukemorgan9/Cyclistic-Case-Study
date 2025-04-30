@@ -1,2 +1,5 @@
 # Cyclistic Case Study
-# # Introduction
+## Introduction
+The following case study on the fictional bike-share company Cyclistic was completed as my capstone project for the Google Data Analytics Professional Certificate on Coursera. For the purpose of this case study I used Divvy Trip Data from the period of January 2024-January 2025 (available here: https://divvy-tripdata.s3.amazonaws.com/index.html). As Cyclistic is a fictional company with limited information provided on its operation via Coursera, I also used the Divvy website to aquire additional information about the bike sharing services offered including the types of rideables available, processes regarding using and docking the bikes and scooters and the benefits of membership. I then applied this information to my case study.
+
+
