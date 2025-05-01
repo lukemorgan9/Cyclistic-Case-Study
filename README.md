@@ -4,4 +4,6 @@ The following case study on the fictional bike-share company Cyclistic was compl
 
 During the case study I used SQL to process the data and Tableau to create compelling visualisations. Link to visualisations on: [Tableau](https://public.tableau.com/views/CyclisticCaseStudy_17456884326040/RideableType?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
+[Combining Data](combining_data.sql)
+
 
