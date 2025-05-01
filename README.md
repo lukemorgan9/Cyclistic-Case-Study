@@ -6,7 +6,8 @@ During the case study I used SQL to process the data and Tableau to create compe
 
 Link to SQL queries:
 
-[Combining Data](combining_data.sql),
+[Combining Data](combining_data.sql)
+
 [Data Exploration](data_exploration.sql)
 
 [Data Cleaning](data_cleaning.sql)
