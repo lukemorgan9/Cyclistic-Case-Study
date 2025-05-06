@@ -46,6 +46,11 @@ As a member of the Cyclistic marketing analytics team it was my responsibility t
 ### Business Task
 Identify key differences in how annual members and casual riders use Cyclistic services and use these insights to inform future marketing decisions to convert casual users into members.
 
+## Prepare
+At this stage I located and organised the relevant datasets which can be found here: [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html). I downloaded the previous 12 months of trip data (January 2024 to January 2025) and organised them into a folder. I then verified the reliability and credability of the data.
+
+The data is publically available first party data collected from a primary data source. It is comprehensive and the formatting is consistent. 
+
 
 
 
