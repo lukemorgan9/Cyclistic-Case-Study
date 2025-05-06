@@ -10,6 +10,10 @@ Throughout my case study I will follow the six step data analysis process of:
 - Share
 - Act
 
+### Scenario
+I am a junior data analyst working in the marketing analyst team at Cyclistic, a bike-share company in Chicago. The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, my team wants to understand how casual riders and annual members use Cyclistic bikes differently. From these insights, my team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives must approve my recommendations, so they must be backed up with compelling data insights and professional data visualizations.
+
+
 ### Useful Links
 
 During the case study I used SQL to process the data and Tableau to create compelling visualisations. I also created a presentation on Microsoft PowerPoint to convey my findings to stakeholders. The links to all of these are available below.
@@ -29,9 +33,6 @@ Link to visualisations:
 
 Link to PowerPoint presentation:
 [Presentation]
-
-### Scenario
-I am a junior data analyst working in the marketing analyst team at Cyclistic, a bike-share company in Chicago. The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, my team wants to understand how casual riders and annual members use Cyclistic bikes differently. From these insights, my team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives must approve my recommendations, so they must be backed up with compelling data insights and professional data visualizations.
 
 ## Ask
 
