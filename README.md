@@ -35,7 +35,16 @@ Link to PowerPoint presentation:
 [Presentation]
 
 ## Ask
+This first stage of the process involved clarifying my objectives and considering my key stakeholders in order to deliver a clear statement of the business task. 
 
+Lily Moreno, the director of marketing and my manager had tasked me with answering the following question:
+
+> How do annual members and casual riders use Cyclistic bikes differently?
+
+As a member of the Cyclistic marketing analytics team it was my responsibility to use historical Cyclistic trip data to analyse and identify trends. I would then report my findings to my stakeholders, Lily Moreno and the Cyclistic executive team, who would use my insights to design digital marketing strategies aimed at converting casual users into annual members.
+
+### Business Task
+Identify key differences in how annual members and casual riders use Cyclistic services and use these insights to inform future marketing decisions to convert casual users into members.
 
 
 
