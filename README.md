@@ -47,16 +47,18 @@ As a member of the Cyclistic marketing analytics team it was my responsibility t
 Identify key differences in how annual members and casual riders use Cyclistic services and use these insights to inform future marketing decisions to convert casual users into members.
 
 ## Prepare
-At this stage I located and organised the relevant datasets which can be found here: [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html). I downloaded the previous 12 months of trip data (January 2024 to January 2025) and organised them into a folder. The data therefore is current. I then verified the reliability and credibility of the data.
+At this stage I located and organised the relevant datasets which can be found here: [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html). I downloaded the previous 12 months of trip data (January 2024 to January 2025) as 12 seperate .csv files (each containing all of the trip data for one month) and organised them into a single folder. The data therefore is current. I then verified the reliability and credibility of the data.
 
 The data is publically available first party data collected from a primary data source which indicates that it is both reliable and credible. The [Divvy Data License Agreement](https://divvybikes.com/data-license-agreement) permits the use of the data for non-commercial purposes. As the data is published for public use and contains no personal information, there are no obvious biases. The data is also comprehensive and the formatting is consistent. There are however some null values which will have to be removed during the processing stage. 
 
 ## Process
 Due to the size of the dataset exceeding the limitations of Excel or Sheets, I decided to use BigQuery (SQL) to process my data. 
 
-Firstly, I combined the 12 months of trip data into one table using the query linked here: [Combining Data](combining_data.sql)
+Firstly, I combined the 12 months of trip data into one table named 'combined_tripdata' using the query linked here: [Combining Data](combining_data.sql). 
+Below is an image displaying the column names and data types of the newly created table:
+<img width="468" alt="Screenshot 2025-05-07 at 10 41 36" src="https://github.com/user-attachments/assets/43cac5b5-06ba-4057-a87b-aca7e2fed504" />
 
-Once the data had been combined I did some further exploration of my dataset to better understand the data and how it would need to be processed.
+Once the data had been combined I did some further exploration of my dataset to better understand the data and how it would need to be processed using the queries linked here:[Data Exploration](data_exploration.sql)  
 
 
 
