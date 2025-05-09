@@ -54,11 +54,22 @@ The data is publically available first party data collected from a primary data 
 ## Process
 Due to the size of the dataset exceeding the limitations of Excel or Sheets, I decided to use BigQuery (SQL) to process my data. 
 
+### Combining Data
 Firstly, I combined the 12 months of trip data into one table named 'combined_tripdata' using the query linked here: [Combining Data](combining_data.sql). 
 Below is an image displaying the column names and data types of the newly created table:
 <img width="468" alt="Screenshot 2025-05-07 at 10 41 36" src="https://github.com/user-attachments/assets/43cac5b5-06ba-4057-a87b-aca7e2fed504" />
 
-Once the data had been combined I did some further exploration of my dataset to better understand the data and how it would need to be processed using the queries linked here:[Data Exploration](data_exploration.sql)  
+### Data Exploration
+Once the data had been combined I did some further exploration of my dataset to better understand the data and how it would need to be processed using the queries linked here: [Data Exploration](data_exploration.sql).
+
+Outlined below are the steps I took:
+
+1. Firstly, I verified that all ride_id values (the primary key) were unique. I discovered 211 duplicate rows. After further exploration I learned that these duplicates were caused by trips that began on the last day of one month and ran into the first day of the next month being recorded under both months. These duplicate values would need to be removed during the cleaning process.
+2. Next, I verified that all ride ids were 16 characters long.
+3. I then explored the rideable_type column to ensure there were only 3 values: electric_bike, classic_bike and electric_scooter.
+4. Next, I identified trips shorter than 1 minute or longer than 1 day. There were 250,270 of these trips which were likely caused by docking errors and would need to be removed during cleaning.
+5. I also explored the start and end station name and id columns looking for null values and inconsistent naming conventions. According to the Divvy website, electric bikes and scooters do not need to be docked in an official docking station which would explain the null values in the start and end station columns. Classic bikes however must be docked in a station and therefore null values for these rideables will need to be removed during cleaning.
+
 
 
 
