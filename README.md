@@ -68,7 +68,7 @@ Outlined below are the steps I took:
 2. Next, I verified that all ride ids were 16 characters long.
 3. I then explored the rideable_type column to ensure there were only 3 values: electric_bike, classic_bike and electric_scooter.
 4. Next, I identified trips shorter than 1 minute or longer than 1 day. There were 250,270 of these trips which were likely caused by docking errors and would need to be removed during cleaning.
-5. I also explored the start and end station name and id columns looking for null values and inconsistent naming conventions. According to the Divvy website, electric bikes and scooters do not need to be docked in an official docking station which would explain the null values in the start and end station columns. Classic bikes however must be docked in a station and therefore null values for these rideables would need to be removed during cleaning. The station id columns contained a number of inconsistencies and would therefore be ignored.
+5. I also explored the start and end station name and id columns looking for null values and inconsistent naming conventions. According to the Divvy website, electric bikes and scooters do not need to be docked in an official docking station and can be left elsewhere on the bike lock. This would explain the null values in the start and end station columns. During cleaning, these null values would be renamed as 'bike_lock' to reflect this. Classic bikes however, must be docked in a station and therefore null values for these rideables would need to be removed during cleaning. The station id columns contained a number of inconsistencies and would therefore be ignored.
 6. I checked for null values in start and end latitude and longitude columns. There were 7232 rows with null values overall. All of these rows would need to be removed as all trips need geographical coordinates.
 7. Lastly, I verified that the member_casual column only contained either one of 2 values: 'member' and 'casual'.
 
@@ -77,7 +77,16 @@ Once I had explored and better understood my dataset, I began the process of cle
 
 Outlined below are the steps I took:
 
-1. Firstly, 
+1. Firstly, I removed the duplicate ride ids. This removed 211 rows.
+2. Secondly, I removed all trips shorter than 1 minute or longer than 1 day. This removed 250,227 rows.
+3. I removed all classic bike trips with no start or end station name.
+4. I also removed all entries with missing latitude or longitude values.
+5. I then converted my dataset into a new table (date_formatted_tripdata) with the date column reformatted and separated into new columns for the day of the week (day_of_week) and the month (month). I also used the timestamp difference between started_at and ended_at to create a new ride length column (ride_length_minutes).
+6. For any remaining rows with null values in the start station name and end station name columns, I replaced the nulls with 'bike_lock' to indicate that for these trips, the bikes had been locked up outside of official docking stations.
+
+By the end of the cleaning process, I had a new table named date_formatted_tripdata with the dates reformatted and 250,479 fewer rows which were removed because of duplicates or nulls. The data was now clean and ready for analysis.
+
+## Analyse
 
 
 
