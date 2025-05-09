@@ -68,7 +68,17 @@ Outlined below are the steps I took:
 2. Next, I verified that all ride ids were 16 characters long.
 3. I then explored the rideable_type column to ensure there were only 3 values: electric_bike, classic_bike and electric_scooter.
 4. Next, I identified trips shorter than 1 minute or longer than 1 day. There were 250,270 of these trips which were likely caused by docking errors and would need to be removed during cleaning.
-5. I also explored the start and end station name and id columns looking for null values and inconsistent naming conventions. According to the Divvy website, electric bikes and scooters do not need to be docked in an official docking station which would explain the null values in the start and end station columns. Classic bikes however must be docked in a station and therefore null values for these rideables will need to be removed during cleaning.
+5. I also explored the start and end station name and id columns looking for null values and inconsistent naming conventions. According to the Divvy website, electric bikes and scooters do not need to be docked in an official docking station which would explain the null values in the start and end station columns. Classic bikes however must be docked in a station and therefore null values for these rideables would need to be removed during cleaning. The station id columns contained a number of inconsistencies and would therefore be ignored.
+6. I checked for null values in start and end latitude and longitude columns. There were 7232 rows with null values overall. All of these rows would need to be removed as all trips need geographical coordinates.
+7. Lastly, I verified that the member_casual column only contained either one of 2 values: 'member' and 'casual'.
+
+### Data Cleaning
+Once I had explored and better understood my dataset, I began the process of cleaning the data using the queries linked here: [Data Cleaning](data_cleaning.sql).
+
+Outlined below are the steps I took:
+
+1. Firstly, 
+
 
 
 
