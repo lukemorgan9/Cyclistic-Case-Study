@@ -57,7 +57,7 @@ Due to the size of the dataset exceeding the limitations of Excel or Sheets, I d
 ### Combining Data
 Firstly, I combined the 12 months of trip data into one table named 'combined_tripdata' using the query linked here: [Combining Data](combining_data.sql). 
 Below is an image displaying the column names and data types of the newly created table:
-<img width="468" alt="Screenshot 2025-05-07 at 10 41 36" src="https://github.com/user-attachments/assets/43cac5b5-06ba-4057-a87b-aca7e2fed504" />
+<img width="464" alt="Screenshot 2025-05-07 at 10 41 36" src="https://github.com/user-attachments/assets/5096f936-646e-413b-8d92-8daf82ce917a" />
 
 ### Data Exploration
 Once the data had been combined I did some further exploration of my dataset to better understand the data and how it would need to be processed using the queries linked here: [Data Exploration](data_exploration.sql).
@@ -87,6 +87,17 @@ Outlined below are the steps I took:
 By the end of the cleaning process, I had a new table named date_formatted_tripdata with the dates reformatted and 250,479 fewer rows which were removed because of duplicates or nulls. The data was now clean and ready for analysis.
 
 ## Analyse
+During the analyse stage I created seperate tables in BigQuery (using the following queries: [Data Analysis](data_analysis.sql)) to calculate various metrics and compare the behaviors of casual users to annual members including:
+
+1. The popularity of different rideable types
+2. The number of trips taken per month of the year
+3. The number of trips taken per day day of the week
+4. The number of trips taken per hour of the day
+5. The average duration of trips per month of the year
+6. The average duration of trips per day of the week
+7. The average duration of trips per hour of the day
+8. The popularity of different start stations
+9. The popularity of different end stations
 
 
 
