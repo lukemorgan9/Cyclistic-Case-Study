@@ -108,8 +108,12 @@ Firstly, I compared the popularity of different rideable types between members a
 I also compared the overall number of member versus casual users. Below we can see that 63.44% of trips are taken by members compared to 36.56 by non-members. While the majority of users are members, there is still a sizeable market share of casual users who can be targeted by the marketing team and hopefully converted into members to maximise profits. 
 <img width="516" alt="Screenshot 2025-05-11 at 16 07 03" src="https://github.com/user-attachments/assets/a6b947c5-9c94-4e69-a3ae-9b2831d40243" />
 
-### Trips taken per month/day/hour
-**Per month of the year**: As shown in the graph below, both casual users and annual members follow a similar trend of using the service less in the winter months and more in the summer months. However, the trend is slightly more pronounced in casual members. There are very few trips taken by casual users from January until March. The number of trips increases quite significantly in April and then continues to increase every month until September. After this, there is a significant decrease in trips in October and usage continues to decline rapidly until the end of the year. The data on annual members shows a less steep decline is usage in October however the rest of the months closely mirror the trends of casual members. 
+### Number of trips taken per month/day/hour
+**Per month of the year**: 
+As shown in the graph below, both casual users and annual members follow a similar trend of using the service less in the winter months and more in the summer months. However, the trend is slightly more pronounced in casual members. There are very few trips taken by casual users from January until March. The number of trips increases quite significantly in April and then continues to increase every month until September. After this, there is a significant decrease in trips in October and usage continues to decline rapidly until the end of the year. The data on annual members shows a less steep decline in usage in October however the rest of the months closely mirror the trends of casual members. The overall number of trips is higher for members as established earlier in the analysis of the rideable distribution. <img width="983" alt="Screenshot 2025-05-11 at 20 44 05" src="https://github.com/user-attachments/assets/f1e9d4b5-c582-4a68-977e-9c5970830f75" />
+
+**Per day of the week**: 
+
 
 
 
