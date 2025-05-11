@@ -99,6 +99,14 @@ During the analyse stage I created seperate tables in BigQuery (using the follow
 8. The popularity of different start stations
 9. The popularity of different end stations
 
+## Share
+During this stage, I created visualisations to convey the results of my analysis using Tableau. The visualisations are available here: [Tableau](https://public.tableau.com/views/CyclisticCaseStudy_17456884326040/RideableType?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+1. Firstly, I compared the popularity of different rideable types between members and non-members. As can be seen in the visualisation, there is very minimal difference between which rideable types members and casual users prefer, with casual users favoring electric scooters slightly more than members. <img width="948" alt="Screenshot 2025-05-11 at 15 57 06" src="https://github.com/user-attachments/assets/946d6a31-1a52-430c-8773-f8f10359dc2c" />
+2. 
+
+
+
 
 
 
