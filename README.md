@@ -108,11 +108,22 @@ Firstly, I compared the popularity of different rideable types between members a
 I also compared the overall number of member versus casual users. Below we can see that 63.44% of trips are taken by members compared to 36.56 by non-members. While the majority of users are members, there is still a sizeable market share of casual users who can be targeted by the marketing team and hopefully converted into members to maximise profits. 
 <img width="516" alt="Screenshot 2025-05-11 at 16 07 03" src="https://github.com/user-attachments/assets/a6b947c5-9c94-4e69-a3ae-9b2831d40243" />
 
-### Number of trips taken per month/day/hour
-**Per month of the year**: 
+### Number of Trips Taken per Month/Day/Hour
+**Per Month of the Year**: 
 As shown in the graph below, both casual users and annual members follow a similar trend of using the service less in the winter months and more in the summer months. However, the trend is slightly more pronounced in casual members. There are very few trips taken by casual users from January until March. The number of trips increases quite significantly in April and then continues to increase every month until September. After this, there is a significant decrease in trips in October and usage continues to decline rapidly until the end of the year. The data on annual members shows a less steep decline in usage in October however the rest of the months closely mirror the trends of casual members. The overall number of trips is higher for members as established earlier in the analysis of the rideable distribution. <img width="983" alt="Screenshot 2025-05-11 at 20 44 05" src="https://github.com/user-attachments/assets/f1e9d4b5-c582-4a68-977e-9c5970830f75" />
 
-**Per day of the week**: 
+**Per Day of the Week**: 
+The graph below clearly indicates that members take far more trips during weekdays than casual users. The service is much more popular with casual users on weekends with the number of trips taken by casual users almost equalling those taken by members. This suggests that members may be using the Cyclistic service for their daily commute while casual users favor using the rideables for leisure activities. <img width="978" alt="Screenshot 2025-05-11 at 20 51 32" src="https://github.com/user-attachments/assets/bf6adda3-0b0e-4bbf-854a-d75699440e27" />
+
+**Per Hour of the Day**: 
+As one might expect, very few trips are taken between 11am and 5am as a lot of people are asleep during that time. The graph shows a large spike around 8am for members, who may be using the bikes and scooters for their morning commute to work. There is also another large spike in use by members at around 5pm. This is likely due to members commuting home from work and/or travelling out to do different activities after they have finished work. The graph for casual users shows a much more steady increase in use from 6am but also peaks at around 5pm. Again, this could reflect use of the service for after work activities. <img width="988" alt="Screenshot 2025-05-11 at 21 05 35" src="https://github.com/user-attachments/assets/34b65515-07bf-4c84-a1d2-61e9b52f2c48" />
+
+### Average Duration of Trips per Month/Day/Hour
+**Per Month of the Year**:
+Here we can see that casual users are consistently taking longer trips than members. There is also an obvious increase in the average duration of trips taken by casual users during the summer months, a trend which is not existent in members. The average trip duration for members does not change significantly at all throughout the year. This again supports my hypothesis that casual users are using the service more for lesiure activities while members are using the service to commute to work. It could also reflect the fact that day pass users get 3 hours free use with classic bikes and therefore feel the need to get the most out of their free time while members have only 45 minutes free. <img width="987" alt="Screenshot 2025-05-11 at 21 16 05" src="https://github.com/user-attachments/assets/88f0feb2-2208-485f-92f4-e42bdc8ec119" />
+
+**Per Day of the Week**: 
+
 
 
 
