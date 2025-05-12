@@ -123,6 +123,10 @@ As one might expect, very few trips are taken between 11am and 5am as a lot of p
 Here we can see that casual users are consistently taking longer trips than members. There is also an obvious increase in the average duration of trips taken by casual users during the summer months, a trend which is not existent in members. The average trip duration for members does not change significantly at all throughout the year. This again supports my hypothesis that casual users are using the service more for lesiure activities while members are using the service to commute to work. It could also reflect the fact that day pass users get 3 hours free use with classic bikes and therefore feel the need to get the most out of their free time while members have only 45 minutes free. <img width="987" alt="Screenshot 2025-05-11 at 21 16 05" src="https://github.com/user-attachments/assets/88f0feb2-2208-485f-92f4-e42bdc8ec119" />
 
 **Per Day of the Week**: 
+In the case of casual users, there is much more variety in the average trip length throughout the week, with the longest trips being taken on the weekends. The average trip length for members is identical from Monday-Friday. This further suggests that members are using the bikeshare service to commute to work as if they are taking the same journey every day, it should take the same amount of time. For members there is also a similar but not quite as significant increase in trip duration on the weekends, implying that they are perhaps using the service for more non-work related activities. 
+
+**Per Hour of the Day**:
+Casual users take their shorts trips in the morning (5-8am). From 8am onwards, the length of trips increases significantly, peaking at 10am and then slowly decreasing throughout the day. The increased length of trips around 10-11am could reflect the use of bikes for leisure activities or generally exploring the city. The graph of annual members shows very little change in average trip duration throughout the day.
 
 
 
