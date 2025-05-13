@@ -145,8 +145,8 @@ In the case of casual users, all of the most popular stations are near tourist a
 These are my recommendations to the marketing team based on the insights gained from my analysis of the past 12 months of trip data:
 
 1. Offer discounted seasonal memberships and/or weekend memberships.
-2. Encourage casual users to use Cyclistic for their commute to work by promoting the cost, health and environmental benefits.
-3. Advertise memberships at tourist sites.
+2. Promote the cost benefits of membership for longer journeys.
+3. Advertise memberships at tourist sites and encourage users to use Cyclistic for their morning commute by promoting the cost, health and environmental benefits.
 
 ### Thank you for taking the time to read my Case Study.
 
