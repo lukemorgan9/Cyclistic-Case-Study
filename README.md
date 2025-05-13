@@ -126,7 +126,7 @@ Here we can see that casual users are consistently taking longer trips than memb
 In the case of casual users, there is much more variety in the average trip length throughout the week, with the longest trips being taken on the weekends. The average trip length for members is identical from Monday-Friday. This further suggests that members are using the bikeshare service to commute to work as if they are taking the same journey every day, it should take the same amount of time. For members there is also a similar but not quite as significant increase in trip duration on the weekends, implying that they are perhaps using the service for more non-work related activities. 
 
 **Per Hour of the Day**:
-Casual users take their shorts trips in the morning (5-8am). From 8am onwards, the length of trips increases significantly, peaking at 10am and then slowly decreasing throughout the day. The increased length of trips around 10-11am could reflect the use of bikes for leisure activities or generally exploring the city. The graph of annual members shows very little change in average trip duration throughout the day.
+Casual users take their shortest trips in the morning (5-8am). From 8am onwards, the length of trips increases significantly, peaking at 10am and then slowly decreasing throughout the day. The increased length of trips around 10-11am could reflect the use of bikes for leisure activities or generally exploring the city. The graph of annual members shows very little change in average trip duration throughout the day.
 
 ### Most Popular Start and End Stations
 **Members**:
@@ -137,7 +137,14 @@ In the case of casual users, all of the most popular stations are near tourist a
 
 ### Key Takeaways
 
-1. Cyclistic 
+1. Both members and casual users take more trips in the warmer months and less trips in the colder months, a trend which is slightly more pronounced in casual users. Additionally, members take more trips on weekdays while casual users take more trips on weekends.
+2. Members take shorter trips than casual users on average, especially during the summer and on weekends.
+3. Members are most commonly travelling to and from corporate offices and apartment complexes while casual users are more commonly travelling to different tourist attractions.
+
+## Act
+These are my recommendations to the marketing team based on the insights gained from my analysis of the past 12 months of trip data:
+
+1. 
 
 
 
