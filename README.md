@@ -128,6 +128,17 @@ In the case of casual users, there is much more variety in the average trip leng
 **Per Hour of the Day**:
 Casual users take their shorts trips in the morning (5-8am). From 8am onwards, the length of trips increases significantly, peaking at 10am and then slowly decreasing throughout the day. The increased length of trips around 10-11am could reflect the use of bikes for leisure activities or generally exploring the city. The graph of annual members shows very little change in average trip duration throughout the day.
 
+### Most Popular Start and End Stations
+**Members**:
+For members, the 5 most popular start stations are identical to the 5 most popular end stations, meaning that users are travelling back and forth to the same places consistently. The most popular start station and end station for members (Kingsbury St & Kinzie St) is situated next to a large corporate office. The majority of the 5 most popular stations are based next to offices or apartment complexes with the exception of the Clark St & Elm St station, which is next to the Chicago Cubs stadium, Wrigley Field. 
+
+**Casuals**:
+In the case of casual users, all of the most popular stations are near tourist attractions such as parks and museums. The most popular starting station (Streeter Dr & Grand Ave) is very close to the Navy Pier, Polk Bros Park and Chicago Children's Museum. The most popular end station (Dusable Lake Shore Dr & North Blvd) is near Lincoln Park and two more museums. There is no overlap between the most popular stations for members and casual users, further emphasising the difference in how members use Cyclistic for work and casual users are using the service for tourism and recreation.
+
+### Key Takeaways
+
+1. Cyclistic 
+
 
 
 
