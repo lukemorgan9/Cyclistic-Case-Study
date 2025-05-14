@@ -51,6 +51,8 @@ At this stage I located and organised the relevant datasets which can be found h
 
 The data is publically available first party data collected from a primary data source which indicates that it is both reliable and credible. The [Divvy Data License Agreement](https://divvybikes.com/data-license-agreement) permits the use of the data for non-commercial purposes. As the data is published for public use and contains no personal information, there are no obvious biases. The data is also comprehensive and the formatting is consistent. There are however some null values which will have to be removed during the processing stage. 
 
+Due to laws around privacy there is no way of identifying individual users and therefore no way of knowing if rides in the database were taken by distinct users or if multiple rides were taken by the same users.
+
 ## Process
 Due to the size of the dataset exceeding the limitations of Excel or Sheets, I decided to use BigQuery (SQL) to process my data. 
 
@@ -150,6 +152,8 @@ These are my recommendations to the marketing team based on the insights gained 
 1. Offer discounted seasonal memberships and/or weekend memberships.
 2. Promote the cost benefits of membership for longer journeys.
 3. Advertise memberships at tourist sites and encourage users to use Cyclistic for their morning commute by promoting the cost, health and environmental benefits.
+
+Further research into the behaviors of individual riders would yield more useful insights for the marketing team to devise future marketing strategies.
 
 ### Thank you for taking the time to read my Case Study.
 
