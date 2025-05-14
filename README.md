@@ -1,6 +1,6 @@
 # Cyclistic Case Study
 ## Introduction
-The following case study on the fictional bike-share company Cyclistic was completed as my capstone project for the Google Data Analytics Professional Certificate on Coursera. For this case study I used [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html) from the period of January 2024-January 2025. As Cyclistic is a fictional company with limited information provided on its operation via Coursera, I also used the Divvy website to aquire additional information about the bike sharing services offered including the types of rideables available, processes regarding using and docking the rideables and the terms of membership. For the purposes of my case study I applied this information to the fictional company Cyclistic.
+The following case study on the fictional bike-share company Cyclistic was completed as my capstone project for the Google Data Analytics Professional Certificate on Coursera. For this case study I used [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html) from the period of January 2024-January 2025. As Cyclistic is a fictional company with limited information provided on its operation via Coursera, I also used the Divvy website to aquire additional information about the bike sharing services offered including the types of rideables available, processes regarding using and docking the bikes/scooters and the terms and benefits of membership. For the purposes of my case study I applied this information to the fictional company Cyclistic.
 
 Throughout my case study I will follow the six step data analysis process of: 
 - Ask
@@ -37,11 +37,11 @@ Link to PowerPoint presentation:
 ## Ask
 This first stage of the process involved clarifying my objectives and considering my key stakeholders in order to deliver a clear statement of the business task. 
 
-Lily Moreno, the director of marketing and my manager had tasked me with answering the following question:
+My manager Lily Moreno (Director of Marketing) had tasked me with answering the following question:
 
 > How do annual members and casual riders use Cyclistic bikes differently?
 
-As a member of the Cyclistic marketing analytics team it was my responsibility to use historical Cyclistic trip data to analyse and identify trends. I would then report my findings to my stakeholders, Lily Moreno and the Cyclistic executive team, who would use my insights to design digital marketing strategies aimed at converting casual users into annual members.
+As a member of the Cyclistic marketing analytics team it was my responsibility to use historical Cyclistic trip data to analyse and identify trends. I would then report my findings to my stakeholders - Lily Moreno and the Cyclistic executive team, who would use my insights to design digital marketing strategies aimed at converting casual users into annual members.
 
 ### Business Task
 Identify key differences in how annual members and casual riders use Cyclistic services and use these insights to inform future marketing decisions to convert casual users into members.
