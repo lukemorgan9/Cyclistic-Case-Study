@@ -151,13 +151,18 @@ In the case of casual users, all of the most popular stations are near tourist a
 ## Act
 These are my recommendations to the marketing team based on the insights gained from my analysis of the past 12 months of trip data:
 
-1. Offer discounted seasonal memberships and/or weekend memberships.
-2. Promote the cost benefits of membership for longer journeys.
-3. Advertise memberships at tourist sites and encourage users to use Cyclistic for their morning commute by promoting the cost, health and environmental benefits.
+1. **Offer discounted seasonal/weekend-only/off-peak memberships**:
+- Offer a 6-month or quarterly membership for users who only intend to use the bikeshare service during the warmer months.
+- Offer discounted weekend-only or weekday-only memberships for users who only take trips on certain days of the week.
+- Offer off-peak only memberships for those who don't take trips at busy hours.
+- 
+2. **Advertise the cost benefits of membership for longer journeys**:
+- 
+4. Advertise memberships at tourist sites during the summer and encourage users to use Cyclistic for their morning commute by promoting the cost, health and environmental benefits.
 
 Further research into the behaviors of individual riders would yield more useful insights for the marketing team to devise future marketing strategies.
 
-### Thank you for taking the time to read my Case Study.
+### Thank you for taking the time to read my Case Study!
 
 
 
