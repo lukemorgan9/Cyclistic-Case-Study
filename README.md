@@ -1,6 +1,6 @@
 # Cyclistic Case Study
 ## Introduction
-The following case study on the fictional bike-share company Cyclistic was completed as my capstone project for the Google Data Analytics Professional Certificate on Coursera. For this case study I used [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html) from the period of January 2024-January 2025. As Cyclistic is a fictional company with limited information provided on its operation via Coursera, I also used the Divvy website to aquire additional information about the bike sharing services offered including the types of rideables available, processes regarding using and docking the bikes/scooters and the terms and benefits of membership. For the purposes of my case study I applied this information to the fictional company Cyclistic.
+The following case study on the fictional bike-share company Cyclistic was completed as my capstone project for the Google Data Analytics Professional Certificate on Coursera. For this case study I used [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html) from the period of January 2024-January 2025. As Cyclistic is a fictional company with limited information provided on its operation via Coursera, I also used the [Divvy website](https://divvybikes.com/) to aquire additional information about the bike sharing services offered including the types of rideables available, processes regarding using and docking the bikes/scooters and the [pricing](https://divvybikes.com/pricing) of the different services and memberships offered. For the purposes of my case study I applied this information to the fictional company Cyclistic.
 
 Throughout my case study I will follow the six step data analysis process of: 
 - Ask
@@ -152,13 +152,16 @@ In the case of casual users, all of the most popular stations are near tourist a
 These are my recommendations to the marketing team based on the insights gained from my analysis of the past 12 months of trip data:
 
 1. **Offer discounted seasonal/weekend-only/off-peak memberships**:
-- Offer a 6-month or quarterly membership for users who only intend to use the bikeshare service during the warmer months.
-- Offer discounted weekend-only or weekday-only memberships for users who only take trips on certain days of the week.
-- Offer off-peak only memberships for those who don't take trips at busy hours.
-- 
+ - Offer a 6-month or quarterly membership for users who only intend to use the bikeshare service during the warmer months.
+ - Offer discounted weekend-only or weekday-only memberships for users who only take trips on certain days of the week.
+ - Offer off-peak only memberships for those who don't take trips at busy hours.
+  
 2. **Advertise the cost benefits of membership for longer journeys**:
-- 
-4. Advertise memberships at tourist sites during the summer and encourage users to use Cyclistic for their morning commute by promoting the cost, health and environmental benefits.
+ -  Casual users, who are on average taking longer journeys, should be made aware of 
+3. **Advertise memberships at tourist sites**:
+ - Target casual users with advertisements located where they are riding to and from, especially during the summer when the bikeshare service is most popular.
+ - Encourage users to consider using Cyclistic for their morning commute. 
+ - Promote the cost, health and environmental benefits.
 
 Further research into the behaviors of individual riders would yield more useful insights for the marketing team to devise future marketing strategies.
 
