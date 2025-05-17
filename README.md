@@ -32,7 +32,7 @@ Link to visualisations:
 [Tableau](https://public.tableau.com/views/CyclisticCaseStudy_17456884326040/RideableType?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 Link to PowerPoint presentation:
-[Presentation]
+[Presentation](https://docs.google.com/presentation/d/1ttDsC2tIEximZ44dzStWZQnDYH19UjeX/edit?usp=sharing&ouid=103473977801283977233&rtpof=true&sd=true)
 
 ## Ask
 This first stage of the process involved clarifying my objectives and considering my key stakeholders in order to deliver a clear statement of the business task. 
