@@ -51,7 +51,7 @@ At this stage I located and organised the relevant datasets which can be found h
 
 The data is publically available first party data collected from a primary data source which indicates that it is both reliable and credible. The [Divvy Data License Agreement](https://divvybikes.com/data-license-agreement) permits the use of the data for non-commercial purposes. As the data is published for public use and contains no personal information, there are no obvious biases. The data is also comprehensive and the formatting is consistent. There are however some null values which will have to be removed during the processing stage. 
 
-Due to laws around privacy there is no way of identifying individual users and therefore no way of knowing if rides in the database were taken by distinct users or if multiple rides were taken by the same users.
+Due to laws around privacy there is no way of identifying individual users and therefore no way of knowing if rides in the database were taken by distinct users or if multiple rides were taken by the same users. Further research into individual users would allow additional insights in the future.
 
 ## Process
 Due to the size of the dataset exceeding the limitations of Excel or Sheets, I decided to use BigQuery (SQL) to process my data. 
@@ -157,7 +157,7 @@ These are my recommendations to the marketing team based on the insights gained 
  - Offer off-peak only memberships for those who don't take trips at busy hours.
   
 2. **Advertise the cost benefits of membership for longer journeys**:
- -  Casual users, who are on average taking longer journeys, should be made aware of 
+ -  Casual users, who are on average taking longer journeys, should be made aware of the savings they would make on such journeys if they became members.
 3. **Advertise memberships at tourist sites**:
  - Target casual users with advertisements located where they are riding to and from, especially during the summer when the bikeshare service is most popular.
  - Encourage users to consider using Cyclistic for their morning commute. 
