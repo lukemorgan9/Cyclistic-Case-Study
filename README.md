@@ -136,7 +136,7 @@ Casual users take their shortest trips in the morning (5-8am). From 8am onwards,
 
 ### Most Popular Start and End Stations
 **Members**:
-For members, the 5 most popular start stations are identical to the 5 most popular end stations, meaning that users are travelling back and forth to the same places consistently. The most popular start station and end station for members (Kingsbury St & Kinzie St) is situated next to a large corporate office. The majority of the 5 most popular stations are also based next to offices or apartment complexes. <img width="993" alt="Screenshot 2025-05-13 at 21 35 07" src="https://github.com/user-attachments/assets/eceef322-ec20-457d-a476-e46bc5919780" />
+For members, the 5 most popular start stations are identical to the 5 most popular end stations, meaning that users are travelling back and forth to the same places consistently. The most popular start station and end stations are for members are situated next to corporate offices and apartment complexes.  <img width="993" alt="Screenshot 2025-05-13 at 21 35 07" src="https://github.com/user-attachments/assets/eceef322-ec20-457d-a476-e46bc5919780" />
 
 
 **Casuals**:
