@@ -47,7 +47,7 @@ As a member of the Cyclistic marketing analytics team it was my responsibility t
 Identify key differences in how annual members and casual riders use Cyclistic services and use these insights to inform future marketing decisions to convert casual users into members.
 
 ## Prepare
-At this stage I located and organised the relevant datasets which can be found here: [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html). I downloaded the previous 12 months of trip data (January 2024 to January 2025) as 12 seperate .csv files (each containing all of the trip data for one month) and organised them into a single folder. The data therefore is current. I then verified the reliability and credibility of the data.
+At this stage I located and organised the relevant datasets which can be found here: [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html). I downloaded the previous 12 months of trip data (January 2024 to January 2025) as 12 separate .csv files (each containing all of the trip data for one month) and organised them into a single folder. The data therefore is current. I then verified the reliability and credibility of the data.
 
 The data is publically available first party data collected from a primary data source which indicates that it is both reliable and credible. The [Divvy Data License Agreement](https://divvybikes.com/data-license-agreement) permits the use of the data for non-commercial purposes. As the data is published for public use and contains no personal information, there are no obvious biases. The data is also comprehensive and the formatting is consistent. There are however some null values which will have to be removed during the processing stage. 
 
